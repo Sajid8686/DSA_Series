@@ -13,16 +13,12 @@ int main(){
         if(nums[i]<smallest_number){
             small_index = i;
             smallest_number = nums[i];
-
         }
-
+        
         if(nums[i]>largest_number){
             large_index = i;
             largest_number= nums[i];
         }
-
-        // smallest_number = min(nums[i], smallest_number);
-        // largest_number = max(nums[i], smallest_number);
     }
 
     cout<<"Size= " <<size<<endl;
